@@ -9,6 +9,5 @@
 <body>
 	${1+2}
 	${1==2?"zhangsa":"李四"}
-	
 </body>
 </html>
