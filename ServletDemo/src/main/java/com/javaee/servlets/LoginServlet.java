@@ -49,10 +49,10 @@ public class LoginServlet extends HttpServlet{
 			session.setAttribute("username", user.getUsername());
 			response.sendRedirect("index.jsp");
 		}else {
-//			request.setAttribute("msg", "用户名或者密码错误！");
-			session.setAttribute("msg", "用户名或者密码错误！");
-			response.sendRedirect("login.jsp");
+			request.setAttribute("msg", "用户名或者密码错误！");
+//			session.setAttribute("msg", "用户名或者密码错误！");
+//			response.sendRedirect("login.jsp");
+			request.getRequestDispatcher("login.jsp").forward(request, response);
 		}
-		
 	}
 }

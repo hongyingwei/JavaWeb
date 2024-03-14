@@ -8,7 +8,7 @@
 <body>
 	<!-- 简单的登录页面 -->
 	<form action="login" method="post">
-		用户名：<input name="uname"><span style="color:red">${msg }</span><br>
+		用户名：<input name="username"><span style="color:red">${msg }</span><br>
 		密 &nbsp;&nbsp;&nbsp;码：<input name="password" type="password"><br>
 		<input type="submit" value="登录">
 	</form>

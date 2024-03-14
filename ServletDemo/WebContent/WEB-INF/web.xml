@@ -32,12 +32,30 @@
 		<servlet-name>ParamServlet</servlet-name>
 		<url-pattern>/param</url-pattern>
 	</servlet-mapping>
-		<servlet>
+	<servlet>
 		<servlet-name>BeanServlet</servlet-name>
 		<servlet-class>com.javaee.servlets.BeanServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>BeanServlet</servlet-name>
 		<url-pattern>/bean</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.javaee.servlets.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>JstlServlet</servlet-name>
+		<servlet-class>com.javaee.servlets.JstlServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JstlServlet</servlet-name>
+		<url-pattern>/jstl</url-pattern>
 	</servlet-mapping>
 </web-app>

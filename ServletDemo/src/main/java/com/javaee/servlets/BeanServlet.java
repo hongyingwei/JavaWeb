@@ -31,10 +31,10 @@ public class BeanServlet extends HttpServlet{
         req.getRequestDispatcher("el.jsp").forward(req, resp);*/
 
 		//tomcat8  自动处理
-		String uname = req.getParameter("uname");
-		
-		byte[] bytes = uname.getBytes("ISO8859-1");
-		uname = new String(bytes,"utf-8");
+//		String uname = req.getParameter("uname");
+//		
+//		byte[] bytes = uname.getBytes("ISO8859-1");
+//		uname = new String(bytes,"utf-8");
 		
 		HttpSession session = req.getSession();
 		User user = new User();

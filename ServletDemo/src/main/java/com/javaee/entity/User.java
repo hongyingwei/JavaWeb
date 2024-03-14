@@ -1,9 +1,9 @@
 package com.javaee.entity;
 
 public class User {
-	private String username;
-	private String password;
-	private Integer age;
+	public String username;
+	public String password;
+	public Integer age;
 	public String getUsername() {
 		return username;
 	}

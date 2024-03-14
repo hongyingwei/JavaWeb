@@ -4,6 +4,15 @@
   <artifactId>ServletDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <dependencies>
+	  	<!-- jstl -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	    <version>1.2</version>
+	</dependency>
+
+  </dependencies>
   <build>
     <plugins>
       <plugin>
