@@ -17,9 +17,9 @@ public class SecondFilter implements Filter{
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		System.out.println("Second拦截请求前置部分");
+		System.out.println("Second鎷︽埅璇锋眰鍓嶇疆閮ㄥ垎");
 		chain.doFilter(request, response);
-		System.out.println("Second拦截请求后置部分");
+		System.out.println("Second鎷︽埅璇锋眰鍚庣疆閮ㄥ垎");
 	}
 	public void destroy() {
 	}
