@@ -16,11 +16,7 @@
         
         
         <property name="context-root" value="ServletDemo"/>
-                                        
-        
-        
-        
-        <property name="java-output-path" value="/ServletDemo/target/classes"/>
+        <property name="java-output-path" value="/ServletDemo/bin"/>
                                                     
     
     
