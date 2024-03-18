@@ -1,4 +1,10 @@
 eclipse.preferences.version=1
 encoding//WebContent/index.jsp=UTF-8
+<<<<<<< HEAD
 encoding//src/main/java/com/javaee/filter/SecondFilter.java=UTF-8
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> branch 'master' of git@github.com:hongyingwei/JavaWeb.git
 encoding//src/main/java/com/javaee/servlets/LogoutServlet.java=UTF-8
+>>>>>>> branch 'master' of git@github.com:hongyingwei/JavaWeb.git

@@ -4,6 +4,8 @@
   <artifactId>ServletDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+<<<<<<< HEAD
+=======
   <dependencies>
 	  	<!-- jstl -->
 	<dependency>
@@ -13,6 +15,7 @@
 	</dependency>
 
   </dependencies>
+>>>>>>> branch 'master' of git@github.com:hongyingwei/JavaWeb.git
   <build>
     <plugins>
       <plugin>

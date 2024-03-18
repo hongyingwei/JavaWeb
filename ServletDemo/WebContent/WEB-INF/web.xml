@@ -24,6 +24,8 @@
 		<servlet-name>HelloServlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
+<<<<<<< HEAD
+=======
 	<servlet>
 		<servlet-name>ParamServlet</servlet-name>
 		<servlet-class>com.javaee.servlets.ParamServlet</servlet-class>
@@ -88,5 +90,10 @@
   <filter-mapping>
   	<filter-name>login</filter-name>
   	<url-pattern>/*</url-pattern>
+<<<<<<< HEAD
   </filter-mapping>
+=======
+  </filter-mapping> -->
+>>>>>>> branch 'master' of git@github.com:hongyingwei/JavaWeb.git
+>>>>>>> branch 'master' of git@github.com:hongyingwei/JavaWeb.git
 </web-app>

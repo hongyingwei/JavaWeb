@@ -8,9 +8,6 @@
     <wb-module deploy-name="ServletDemo-0.0.1-SNAPSHOT">
                         
         
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                        
-        
         <wb-resource deploy-path="/" source-path="/WebContent"/>
                                                         
         

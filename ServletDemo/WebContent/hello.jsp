@@ -1,4 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
+<<<<<<< HEAD
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		hello,你好呀！
+=======
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -27,6 +39,7 @@
 		<%
 		out.println(i);
 		%>
+>>>>>>> branch 'master' of git@github.com:hongyingwei/JavaWeb.git
 	</div>
 </body>
 </html>
